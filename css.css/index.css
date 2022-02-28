@@ -1,22 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+}
 .header {
-    background-image: url("https://picsum.photos/1400/800");
     width: 100%;
-    height: 800px;
+    height:800px;
+    background-image: url("https://picsum.photos/1400/800");
     background-repeat: no-repeat;
     background-size: contain;
-}
-.container__span{
-    /* margin-top: 120px;
-    margin-bottom: 120px; */
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-family: 'Hind Siliguri', sans-serif;
 }
-.container__h2 {
-    margin-top: 120px;
-    color:rgb(236, 11, 11);
+/* .container__span{ */
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
     
+
+.container__h2 {
+    margin-top: 100px;
+    color:rgb(185, 10, 10);
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
 }
 .container__p {
     color:rgb(53, 4, 187);
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 28px;
 }
+.bottom{
+    background-color: rgba(212, 34, 34, 0.6);
+    color:green;
+    padding: 12px 24px;
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+    margin-top: 60px;
+
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.main__h2 {
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.main__div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Raleway','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.main__p {
+    width: 400px;
+    text-align: center;
+    margin-right: 20px;
+}
+.main__p1 {
+    width: 400px;
+    text-align: center;
+}
+
+
+
+
+.hero {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(21, 231, 214);
+    /* background-image: url("https://picsum.photos/1400");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__span {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.hero__text {
+    font-weight: 500;
+    font-size: 18px;
+}
+.hero__span:not(:last-child){
+    margin-right: 25px;
+}
+
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.section__h2 {
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.section__p {
+    font-family: 'Raleway','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+
+.container-footer{
+    display: flex;
+}
+.container__footer {
+    width: 50%;
+    background-color: rgb(49, 19, 214);
+    text-align: center;
+}
+.container__footer-h2 {
+    margin-top: 50px;
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.container__footer-p {
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-bottom: 50px;
+    color:white;
+}
+
+
+.container__footer1 {
+    width: 50%;
+    text-align: center;
+    background-color: rgb(17, 228, 62);
+}
+.container__footer1-h2 {
+    margin-top: 50px;
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.container__footer1-p {
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color:white;
+}
+
+
+.container-div {
+    display: flex;
+}
+.container-div1 {
+    background-color: rgb(203, 243, 23);
+    width: 50%;
+    text-align: center;
+}
+.container-div1-h2 {
+    margin-top: 50px;
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color:rgb(51, 7, 250);
+}
+.container-div2 {
+    background-color: rgb(230, 7, 211);
+    width: 50%;
+    text-align: center;
+}
+.container-div2-h2 {
+    margin-top: 50px;
+    font-family: 'Hind Siliguri','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color:rgb(40, 4, 241);
+} 
+
+
+.bottom {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+.bottom {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+}
+
+.bottom:hover {
+    color: #fff;
+    text-decoration: none;
+    background-position: right center; /* change the direction of the change here */
+}
+
